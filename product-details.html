@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" style="padding: 8px 8px; border-radius: 20px; height: 120px; width: 120px;"
+                    alt="website logo">
+            </div>
+            <nav class="nbar m-style">
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="cart image"></a>
+            <img src="images/menu.png" width="30px" height="30px" onclick="menutoggle()" class="menu-icon"
+                alt="cart image">
+        </div>
+    </div>
+    <!-- -------single product details--------- -->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" width="100%" id="productImg" alt="">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" alt="" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / Development Boards</p>
+                <h1>Arduino Uno R4 WiFi</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h5 style="display: inline; color: #032c6e;"> &nbsp; (48 customer reviews)</h5>
+                </div>
+                <h4>₹2,895</h4>
+                <input type="number" value="1">
+                <a href="cart.html" class="btn">Add To Cart</a>
+                <h3>Product details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>The Arduino UNO R4 WiFi merges the RA4M1 microprocessor from Renesas with the ESP32-S3 from
+                    Espressif, creating an all-in-one tool for makers with enhanced processing power and a diverse array
+                    of new peripherals. With its built-in Wi-Fi® and Bluetooth® capabilities, the UNO R4 WiFi enables
+                    makers to venture into boundless creative possibilities. Furthermore, this versatile board boasts a
+                    convenient on-board 12x8 LED matrix and a Qwiic connector, offering ample space for innovation and
+                    unleashing creativity. This dynamic combination empowers makers to transform their ideas into
+                    reality and elevate their projects to unprecedented heights.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------- title--------------- -->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Realted Products</h2>
+            <a href="products.html">
+                <p>View more</p>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- ------------- products---------- -->
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.png" alt="">
+                <h4>Arduino Uno R4 WiFi</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹2,895</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Teensy 4.0</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹2,081</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Raspberry PI</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i></i>
+                </div>
+                <p>₹5,350</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>µLab Kiwi & KiwiLite</h4>
+                <div class="rating">
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Comming Soon</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------footer---------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div><br>
+                    <p>Secured Payment Gateways</p>
+                    <div class="app-logo">
+                        <img src="images/pay.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png"
+                        style="padding: 8px 8px; border-radius: 20px; height: 120px; width: 120px;" alt="website logo">
+                    <p>The purpose of this website is to provide information and resources related to electronic
+                        components, digital solutions, and home automation projects.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+                <div class="footer-col-5">
+                    <h3>My Account</h3>
+                    <ul>
+                        <li>Sign In</li>
+                        <li>View Cart</li>
+                        <li>Track My Order</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Amritesh Ghosh</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
